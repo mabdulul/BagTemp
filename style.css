@@ -1,0 +1,659 @@
+
+@font-face {
+    font-family: Roboto Light;
+    src: url(Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: Roboto Medium;
+    src: url(Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: Roboto Regular;
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto Bold;
+    src: url(Roboto/Roboto-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: Roboto Condensed-Regular ;
+    src: url(Roboto_Condensed/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto Condensed-Light ;
+    src: url(Roboto_Condensed/RobotoCondensed-Light.ttf);
+}
+
+
+.owl-next,.owl-prev  {
+visibility: hidden;
+}
+
+
+a {
+  color: black;
+  text-decoration: none; /* no underline */
+}
+
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+  font-family: Roboto Light;
+
+}
+
+#title{
+  text-align: center;
+  font-size: 68px;
+  font-family: Roboto Light;
+  text-transform: uppercase;
+  position: relative;
+  top: 25px;
+
+}
+
+#change{
+  height: 120px;
+}
+
+/***The Star***/
+#versionimg{
+  position: relative;
+  top: 69px;
+}
+
+
+
+#pricetext{
+  font-size: 25px;
+  font-family: Roboto Condensed-Regular ;
+  font-weight: 300;
+  text-align: center;
+
+}
+#pricebox{
+  float: right;
+  border-style: solid;
+  border-width: 3px;
+  width: 346px;
+  height:  146px;
+  margin-right: 47px;
+
+
+}
+
+
+.rating {
+  font-size: 55px;
+  letter-spacing: 5px;
+  padding-top: 10px;
+  position: relative;
+
+}
+
+/***These are different on everpage***/
+
+.associatestext{
+  font-size: 25px;
+  font-family: Roboto Condensed-Regular ;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.3 ;
+  color: #ce028a;
+
+}
+
+#ksbrown_A_text{
+
+    color: rgb(126, 66, 53);
+
+}
+
+
+
+#MKtext{
+  color: #d46136;
+}
+
+#ckstars:hover, #ckstars:focus {
+  color: #ce028a;
+
+}
+
+#ckPinkasso:hover, #ckPinkasso:focus {
+  color: #ce028a;
+
+}
+/***/
+
+#changeasso:hover, #changeasso:focus {
+  color: #ce028a;
+
+}
+
+#changestars:hover, #changestars:focus {
+  color: #ce028a;
+
+}
+/*** KS Brown***/
+#kschangeasso:hover, #kschangeasso:focus {
+    color: rgb(108, 75, 69);
+
+}
+
+#ksbrownstars:hover, #ksbrownstars:focus {
+  color: rgb(108, 75, 69);
+
+}
+
+/****MK Brown ***/
+#MKtext{
+    color: #d46136;
+
+}
+#MKbrownchangeasso:hover, #MKbrownchangeasso:focus {
+    color: #d46136;
+
+}
+
+#MKBrownchangestars:hover, #MKBrownchangestars:focus {
+  color: #d46136;
+
+}
+
+/******CK Pink****/
+#CKPinkassociatestext{
+  color: #76bac7;
+}
+#ckPinkasso:hover, #ckPinkasso:focus {
+    color: #76bac7;
+
+}
+
+#ckpinkstars:hover, #ckpinkstars:focus {
+  color: #76bac7;
+
+}
+
+/**************CK White *************/
+#CKWhiteassociatestext{
+  color:#ff7b22;
+}
+#ckwhitechangeass:hover, #ckwhitechangeass:focus {
+      color:#ff7b22;
+
+}
+
+#ckwhitechangestars:hover, #ckwhitechangestars:focus {
+      color:#ff7b22;
+
+}
+
+/****KS Black********/
+
+#KSBlackssociatestext{
+  color: #638825;
+
+}
+
+
+#ksblackchangeasso:hover, #ksblackchangeasso:focus {
+        color: #638825
+
+}
+
+#ksblackchangestars:hover, #ksblackchangestars:focus {
+        color: #638825
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************************************/
+
+#destext{
+font-size: 40px;
+font-family: Roboto Condensed-Light ;
+font-weight: 300;
+position: relative;
+margin-left: 43px;
+
+}
+
+
+/***The Description Text and Price***/
+#descriptbox{
+
+      margin-left: 42px;
+}
+#Descriptiontext{
+font-family: Roboto Light;
+  font-size: 25px;
+    font-weight: 300;
+    position: relative;
+top: -30px;
+
+}
+#price{
+text-align: center;
+margin-top: 160px;
+font-family: Roboto Condensed-Regular ;
+font-weight: 700;
+font-size: 35px;
+margin-left: 150px;
+}
+
+#pricespans{
+  position: relative;
+  margin-left: 9px;
+}
+/*** Related Area***/
+
+#margins{
+  position: relative;
+  margin-top: 60px;
+}
+#relatedtext{
+  font-size: 40px;
+  text-align: center;
+padding-top: 19px;
+font-family: Roboto Condensed-Light;
+font-weight: 300;
+}
+
+#hrtwo{
+  float: right;
+  position: relative;
+  top: 20px;
+  height: 1px;
+  background: black;
+
+
+}
+#hrthree{
+  float: left;
+  position: relative;
+  top: -20px;
+  height: 1px;
+  background: black;
+
+
+}
+#box{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+  width: 295px;
+  height:  123px;
+
+}
+
+/***horizontal line***/
+.lineunderprice{
+  position: relative;
+  top: -75px;
+  left: 17px;
+  height: 1px;
+  background: black;
+
+
+}
+
+#hrone{
+  float: left;
+  position: relative;
+  top: -100px;
+  height: 1px;
+  background: black;
+
+
+}
+
+#hrtwo{
+  float: right;
+  height: 1px;
+  background: black;
+
+
+}
+/**/
+
+
+
+/***The Circle****/
+
+.circle-image{
+  border-radius: 100px;
+  border-style: solid;
+  border-width: .9px;
+  border-color: rgb(164, 166, 180);
+
+}
+
+  #extrapadding {
+    position: relative;
+    margin-top: 10px;
+        left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/**The End Box**/
+#Speackpadding{
+  position: relative;
+  top: 68px;
+}
+#associatesbox{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+  border-style: solid;
+  border-width: 3px;
+  width: 295px;
+  height:  123px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+#talk{
+  position: relative;
+  left: 20px;
+  top: 10px;
+
+
+}
+
+
+
+#assobox{
+  width: 170px;
+  position: relative;
+  float: right;
+  top: -15px;
+
+
+  right: 10px;
+}
+
+
+
+
+
+
+
+/***The Modal CSS***/
+#closemesty{
+  width: 50px;
+
+}
+
+#myModal, #myModalTwo, #myModalthree, #myModalfour, #myModalfive{
+
+  float: left;
+margin-left: 200px;
+  overflow: hidden;
+}
+
+.reveal-overlay{
+  overflow-y:hidden;
+}
+
+
+
+#modalTitle{
+  text-align: center;
+    font-family: Roboto Light;
+  font-size: 50px;
+}
+
+
+#talktome{
+  font-size: 70px;
+  text-transform: capitalize;
+    font-family: Roboto Regular;
+}
+#asssoonbox {
+  width: 350px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+/***The rating style**/
+.rateme{
+  font-family: Roboto Bold;
+  font-size: 20px;
+
+}
+.middle{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#hrmode{
+  position: relative;
+  top: -10px;
+}
+.thestarboxs{
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+
+}
+#quickdata{
+  line-height: 0.5;
+  width: 277.486px;
+  height: 164.992px;
+  font-family: Roboto Regular;
+  font-size: 16px;
+
+}
+
+.gender{
+  position: relative;
+  left: 3px;
+}
+
+ul li{
+  list-style-type: none;
+  line-height: 20px;
+}
+
+.textreviews{
+  width: 401.98px;
+  height: 163.492px;
+  font-family: Roboto Light;
+  font-size: 18px;
+}
+.agerange{
+  position: relative;
+  left: 5px;
+}
+/**********************************************switchme*****************************************/
+.switchtome {
+  position: relative;
+  top: -120px;
+    left: 771px;
+  width: 208px;
+  height: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/******Change the color of the button***************/
+
+.boxone{
+  width: 101px;
+  height: 99px;
+  border-style: solid;
+  border-width: .3px;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+
+
+
+/*****CK Pink and white****/
+
+#whiteck{
+  background: white;
+
+  border-color: rgb(191, 192, 198);
+
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+    box-shadow: -3px 0px 12px 3px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+
+}
+#pinkck{
+
+  background-color: rgb(242, 218, 230);
+    border-color: rgb(217, 193, 209);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgb(217, 193, 209);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgb(217, 193, 209);
+box-shadow: -3px 0px 12px 3px rgba(0, 0, 0, 0.05), 0px 2px 3px rgb(217, 193, 209);
+
+}
+
+#pinkck:hover, #pinkck:focus{
+  background-color: rgba(157, 13, 109, 0.72)!important;
+    border: solid 1px rgba(141, 2, 88, 0.81);
+
+}
+
+#whiteck:hover, #whiteck:focus{
+  background-color: rgba(204, 202, 204, 0.75)!important;
+    border: solid 1px rgba(141, 131, 137, 0.41)
+
+}
+
+/*****KS Black and Brown****/
+
+#ksblack{
+  background: rgba(36, 31, 31, 0.92);
+    border-color: rgb(118, 118, 127);
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+    box-shadow: -3px 0px 12px 3px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+
+}
+#ksbrown{
+  background-color: rgb(87, 53, 39);
+    border-color: rgb(134, 94, 80);
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(106, 65, 51, 0.72);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(106, 65, 51, 0.72);
+    box-shadow: -3px 0px 12px 3px rgba(217, 24, 24, 0.05), 0px 2px 3px rgba(106, 65, 51, 0.72);
+
+
+}
+
+#ksbrown:hover, #ksbrown:focus{
+  background-color: rgb(156, 91, 72)!important;
+      border: solid 1px rgba(123, 108, 103, 0.71);
+
+}
+
+#ksblack:hover, #ksblack:focus{
+  background-color: rgba(16, 28, 19, 0.75)!important;
+    border: solid 1px rgba(180, 167, 175, 0.41);
+
+}
+
+
+
+
+
+
+
+/*************MK Pink and Brown************************/
+#mkbrown{
+  background: #ff530f;
+  border-color: rgba(254, 153, 84, 0.44);
+
+    -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+    box-shadow: -3px 0px 12px 3px rgba(0, 0, 0, 0.05), 0px 2px 3px rgba(0, 0, 0, 0.42);
+
+}
+#pink{
+
+  background-color: #ce028a;
+  border-color: rgb(173, 13, 111);
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgb(106, 0, 102);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.05), 0px 2px 3px rgb(106, 0, 102);
+box-shadow: -3px 0px 12px 3px rgba(0, 0, 0, 0.05), 0px 2px 3px rgb(106, 0, 102);
+
+}
+
+#pink:hover, #pink:focus{
+  background-color: rgba(157, 13, 109, 0.72)!important;
+    border: solid 1px rgba(141, 2, 88, 0.81);
+
+}
+
+#mkbrown:hover, #mkbrown:focus{
+  background-color: rgb(253, 150, 80)!important;
+      border: solid 1px rgba(141, 131, 137, 0.41);
+
+}
+
+
+
+.colorswitch ul {
+  width: 202px;
+  height: 99px;
+  display: inline-flex;
+  position: relative;
+  top: -110px;
+      left: 739px
+}
+
+.colorswitch ul li{
+padding-right: 15px;
+
+}
